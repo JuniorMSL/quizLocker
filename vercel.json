@@ -1,0 +1,10 @@
+{
+    "env": {
+        "NODE_OPTIONS": "--dns-result-order=ipv4first"
+    },
+    "functions": {
+        "app/**/*.ts": {
+            "maxDuration": 30
+        }
+    }
+}
